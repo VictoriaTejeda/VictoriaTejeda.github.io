@@ -27,7 +27,7 @@ article{
 }
 
 .card:hover{
-    transform: translateY(-10px);
+    transform: translateY(-12px);
 }
 .card-text,.card-title{
     text-align: center;

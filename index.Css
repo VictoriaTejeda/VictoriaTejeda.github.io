@@ -1,0 +1,91 @@
+:root{
+--btn-color:#363636;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12vh;
+   
+}
+
+article{
+    margin: 4vh;
+    margin-bottom: 0;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:55vh;
+    height:55vh;
+    margin-bottom:3vh;
+    border-radius: 2vh !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+.card-text,.card-title{
+    text-align: center;
+    margin: 1.8vh;
+}
+
+.card-body{
+display: flex;
+flex-direction: column;
+}
+
+.btn-plan, .continue-btn{
+    align-self: center;
+    margin-top: 1.2vh;
+    height: 7vh;
+    border-radius: 1.2vh;
+    background-color:var(--btn-color);
+    border: #363636;
+    color: #FFF;
+    font-weight: 500;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.btn-plan{
+    width: 100%;
+}
+.btn-plan:hover, .continue-btn:hover{
+    background-color: black;
+}
+
+.btn-plan:active{
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  transform: translateY(10px);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.continue-btn{
+    width: 55vh;
+}
+
+.selected-plan, .selected-plan:hover{
+    border-style: solid;
+    border-color: #000000 !important;
+    -moz-box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.7);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    position: relative;
+}
+
+.selected-plan button{
+    border-style: solid;
+    border-color: #000000 !important;
+    background-color: #FFF;
+    color: #363636;
+}
+.selected-plan button:hover{
+    color: #FFF;
+}

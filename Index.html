@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Prueba Golden code</title>
+</head>
+<body>
+    <main>
+        <section >
+            <article>
+              <div class="card " id="basic" >
+                <div class="card-body">
+                  <h2 class="card-title">Básico</h2>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut aliquam cumque fugiat veritatis impedit.</p>
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet elit</li>
+                    <li>Lorem ipsum dolor sit amet cumque</li>
+                </ul>
+                <button class="btn-plan" id="basicPlan" onclick="selectPlanBasic()">Seleccionar este plan</button>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="card selected-plan" id="middle">
+                <div class="card-body">
+                  <h2 class="card-title">Intermedio</h2>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut aliquam cumque fugiat veritatis impedit.</p>
+                  <ul>
+                      <li>Lorem ipsum dolor sit amet</li>
+                      <li>Lorem ipsum dolor sit amet elit</li>
+                      <li>Lorem ipsum dolor sit amet cumque</li>
+                  </ul>
+                  <button class="btn-plan" id="middlePlan" onclick="selectPlanInter()">Seleccionado</button>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="card" id="high">
+                <div class="card-body">
+                  <h2 class="card-title">Avanzado</h2>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut aliquam cumque fugiat veritatis impedit.</p>
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet elit</li>
+                    <li>Lorem ipsum dolor sit amet cumque</li>
+                </ul>
+                <button class="btn-plan" id="avancePlan" onclick="selectPlanAvance()" >Seleccionar este plan</button>
+                </div>
+              </div>
+            </article>
+        </section>
+        <section> 
+            <button class="continue-btn" id="continue">Continuar con Intermedio </button>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

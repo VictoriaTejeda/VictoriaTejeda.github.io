@@ -3,10 +3,10 @@ const prueba = (id, idPlan, idBtn ) => {
   let allbtns = document.querySelectorAll(".btn-plan");
 
   
-  allCards.forEach(function (id) {
+  allCards.forEach((id)=> {
     id.classList.remove("selected-plan");
   });
-  allbtns.forEach(function (btn) {
+  allbtns.forEach((btn)=> {
     btn.innerHTML = "seleccionar este plan";
   });
   
@@ -22,5 +22,5 @@ const active = (val,idPlan, selected ) => {
   const type= plan.innerHTML
   card.classList.add("selected-plan");
   btn.innerHTML = "seleccionado";
- btnContinue.innerHTML= `Continuar con  ${type}`
+ btnContinue.innerHTML= `Continuar con ${type}`
 };

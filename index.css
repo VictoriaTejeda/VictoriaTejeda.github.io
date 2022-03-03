@@ -26,7 +26,7 @@ article {
 }
 
 .card:hover {
-  transform: translateY(-13px);
+  transform: translateY(-12px);
 }
 .card-text,
 .card-title {
@@ -71,19 +71,22 @@ article {
   margin-bottom: 5vh;
 }
 
-.selected-plan
-.selected-plan:hover {
+.selected-plan{
   border-style: solid;
   margin:2vw;
   border-color: #000000 !important;
   -moz-box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.7);
   -webkit-box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.7);
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.7);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
   position: relative;
 }
+.selected-plan:hover{
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.705);
+    transform: scale(1.15)
+  }
 
 .selected-plan button {
   border-style: solid;
